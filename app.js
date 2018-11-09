@@ -3,6 +3,7 @@ let b = 'let from app.js';
 
 var myVars = function() {
 	var e = 'var from inside anonymous function';
+	var h = 'let from inside anonymous function';
 	console.log(a);
 	console.log(b);
 	console.log(c);
@@ -10,6 +11,7 @@ var myVars = function() {
 	console.log(e);
 	console.log(f);
 	// console.log(g);
+	console.log(h);
 }
 
 myVars();
